@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-HA_PROXY_DIR=/usr/local/etc/haproxy
+HA_PROXY_DIR=/etc/haproxy
 LE_DIR=/etc/letsencrypt/live
 DOMAINS=$(ls ${LE_DIR})
 
